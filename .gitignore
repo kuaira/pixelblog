@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+.env
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore the oops file
+frontend/blog_frontend/..oops_backend_path..
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations (except for initial ones)
+backend/**/migrations/00*.py
+!backend/**/migrations/__init__.py
+
+# Media and static files (should be served by web server in production)
+media/
+staticfiles/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Pytest
+.pytest_cache/
+pytest_report.html
+
+# Temporary files
+*.tmp
+*.temp
